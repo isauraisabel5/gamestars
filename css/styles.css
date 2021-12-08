@@ -65,6 +65,18 @@ li:nth-of-type(6){
     bottom: 10vw;
 }
 
+.Top_Bar{
+
+}
+
+.Top_Bar img{
+    width: 100%;
+    height: auto;
+    max-width: 30vw;
+    padding: 20px;
+    
+}
+
 .Top_Bar button{
     color: #6ECDDD;
     font-size: 10vw;
