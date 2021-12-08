@@ -20,45 +20,41 @@ body{
     z-index: 1000;
     overflow: hidden;
 }
- 
-#flyoutMenu h2 a {
-    color: white;
-    text-decoration: none;
+
+#flyoutMenu li{
+    text-align: center;
 }
 
-#flyoutMenu{
-    text-align: center;
-    padding-top: 2rem;
-}
- 
-#flyoutMenu h2 a:hover {
+#flyoutMenu a{
     text-decoration: none;
+    font-size: 10vw;
+}
+
+#flyoutMenu i{
+    color: #6ECDDD; 
+    font-size: 10vw ;
+    border: none;
+    padding: 10px;
+}
+
+#flyoutMenu button{
+    border: none;
+    background-color: #001822;
+    float: right;
 }
 
 #flyoutMenu.show {
     transform: translate3d(0vw, 0, 0);
 }
 
-.Top_Bar{
-
-}
-
 .Top_Bar button{
     color: #6ECDDD;
-    font-size: 2vw;
+    font-size: 10vw;
     float: right;
     text-decoration: none;
     background-color: #001822;
     border: none;
+    padding: 10px;
 }
 
-.Top_Bar button:hover{
-
-}
-
-ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 

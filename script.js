@@ -1,8 +1,8 @@
 var Hamburger = document.querySelector("#Hamburger");
 Hamburger.addEventListener("click", showMenu, false);
  
-var flyoutMenu = document.querySelector("#flyoutMenu");
-//flyoutMenu.addEventListener("click", hideMenu, false);
+Kruis = document.querySelector("#Kruis");
+Kruis.addEventListener("click", hideMenu, false);
  
 function showMenu(e) {
     flyoutMenu.classList.add("show");
