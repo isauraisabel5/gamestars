@@ -20,7 +20,7 @@ body{
     transition: transform .3s cubic-bezier(0, .52, 0, 1);
     overflow: scroll;
     z-index: 1000;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 #flyoutMenu li{
@@ -29,7 +29,7 @@ body{
 
 #flyoutMenu ul{
     text-align: center;
-    padding-top: 40vw;
+    padding-top: 30vw;
 }
 
 #flyoutMenu a{
@@ -88,6 +88,10 @@ li:nth-of-type(6){
     background-color: #001822;
     border: none;
     padding: 30px;
+}
+
+.menuBar{
+    display: none;
 }
 
 #Slideshow{
@@ -175,4 +179,52 @@ footer{
     padding-top: 2vh;
 }
 
+@media only screen and (min-width: 768px) {
+    #flyoutMenu{
+        display: none;
+    }
+    
+    .Top_Bar button{
+        display: none;
+        position: relative;
+        right: 8vw;
+    }
 
+    .Top_Bar img{
+        width: 100%;
+        height: auto;
+        max-width: 20vw;
+        padding: 20px;
+        
+    }
+
+    .menuBar{
+        display: block;
+        position: relative;
+        bottom: 10vw;
+    }
+
+    .menuBar a{
+        text-decoration: none;
+        font-size: 2vw;
+        float: left;
+        color: white;
+        padding: 10px;
+        
+    }
+
+    .menuBar li{
+        display: inline-table;
+        position: relative;
+        bottom: 20vw;
+        left: 25vw;
+    }
+
+    #Slideshow{
+        max-width: 100vw;
+        position: relative;
+        margin: auto; 
+        top: 22vh; 
+        display: none;
+    }
+  }
