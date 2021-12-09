@@ -36,7 +36,6 @@ body{
     color: white;
 }
 
-
 #flyoutMenu i{
     color: #6ECDDD; 
     font-size: 10vw ;
@@ -57,8 +56,8 @@ body{
 }
 
 li:nth-of-type(6){
-    border: solid 1px blue; 
-    background-color: blue;
+    border: solid 1px #6ECDDD; 
+    background-color: #6ECDDD;
     border-radius: 100px;
     margin: 20vw 20vw;
     position: relative;
@@ -85,6 +84,26 @@ li:nth-of-type(6){
     background-color: #001822;
     border: none;
     padding: 30px;
+}
+
+footer{
+    background-color: white;
+    position: relative;
+    top: 80vw;
+    
+}
+
+.Contact{
+    text-align: center;
+    
+}
+
+.Social img{
+    width: 100%;
+    height: auto;
+    max-width: 10vw;
+    padding: 5px;
+    padding-top: 5vw;
 }
 
 
