@@ -9,6 +9,10 @@ body{
 
 }
 
+/*
+    De ccs van pc
+*/
+
 #flyoutMenu {
     width: 100vw;
     height: 100vh;
@@ -179,6 +183,9 @@ footer{
     padding-top: 2vh;
 }
 
+/*
+    De ccs van tablet
+*/
 @media only screen and (min-width: 768px) {
     #flyoutMenu{
         display: none;
@@ -195,6 +202,7 @@ footer{
         height: auto;
         max-width: 10vw;
         padding: 25px;  
+        display: none;
     }
 
     .menuBar{
@@ -205,17 +213,15 @@ footer{
 
     .menuBar a{
         text-decoration: none;
-        font-size: 1.5rem;
-        float: left;
+        font-size: 1rem;
+        float: right;
         color: white;
         padding: 10px;     
     }
 
     .menuBar li{
         display: inline-table;
-        position: relative;
-        bottom: 20vw;
-        left: 25vw;
+        position: relative; 
         padding-left: 1vw;
         padding-right: 1vw;
     }
