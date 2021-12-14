@@ -193,24 +193,22 @@ footer{
     .Top_Bar img{
         width: 100%;
         height: auto;
-        max-width: 20vw;
-        padding: 20px;
-        
+        max-width: 10vw;
+        padding: 25px;  
     }
 
     .menuBar{
         display: block;
         position: relative;
-        bottom: 10vw;
+        bottom: 3vw;
     }
 
     .menuBar a{
         text-decoration: none;
-        font-size: 2vw;
+        font-size: 1.5rem;
         float: left;
         color: white;
-        padding: 10px;
-        
+        padding: 10px;     
     }
 
     .menuBar li{
@@ -218,6 +216,8 @@ footer{
         position: relative;
         bottom: 20vw;
         left: 25vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
     }
 
     #Slideshow{
@@ -226,5 +226,18 @@ footer{
         margin: auto; 
         top: 22vh; 
         display: none;
+    }
+
+    .Social{
+        justify-content: center;
+        display: flex;
+    }
+
+    .Social img{
+        width: 100%;
+        height: auto;
+        max-width: 4vw;
+        padding: 10px;
+        padding-top: 1vh;
     }
   }
