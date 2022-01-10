@@ -158,11 +158,12 @@ footer{
     background-color: white;
     position: relative;
     top: 60vw;
+    padding-bottom: 5vw ;
 }
 
 .Contact{
-    text-align: center;
     padding-top: 20px;
+    text-align: center;
 }
 
 .Social{
@@ -179,14 +180,16 @@ footer{
 }
 
 .disclaimer{
-    text-align: center;
     padding-top: 2vh;
+    text-align: center;
 }
 
 /*
     De ccs van tablet
 */
 @media only screen and (min-width: 768px) {
+    
+
     #flyoutMenu{
         display: none;
     }
@@ -194,7 +197,7 @@ footer{
     .Top_Bar button{
         display: none;
         position: relative;
-        right: 8vw;
+        right: 8vw;  
     }
 
     .Top_Bar img{
@@ -202,21 +205,18 @@ footer{
         height: auto;
         max-width: 10vw;
         padding: 25px;  
-        display: none;
+        display: block;
     }
 
     .menuBar{
         display: block;
         position: relative;
-        bottom: 3vw;
     }
 
     .menuBar a{
         text-decoration: none;
         font-size: 1rem;
-        float: right;
-        color: white;
-        padding: 10px;     
+        color: white;     
     }
 
     .menuBar li{
@@ -224,6 +224,9 @@ footer{
         position: relative; 
         padding-left: 1vw;
         padding-right: 1vw;
+        position: relative;
+        bottom: 23vw;
+        left: 20vw;
     }
 
     #Slideshow{
@@ -231,12 +234,34 @@ footer{
         position: relative;
         margin: auto; 
         top: 22vh; 
-        display: none;
+        display: block;
+    }
+
+    .Contact{
+        text-align: left;
+        float: right;
+        padding: 25px;
+        position: relative;
+        top: 1vw;
+    }
+
+    .Contact h2{
+        font-size: 1.2rem;
+    }
+
+    .Contact h3{
+        font-size: 1rem;
+    }
+
+    footer{
+        padding-bottom: 5vw;
     }
 
     .Social{
-        justify-content: center;
-        display: flex;
+        padding: 25px;
+        float: right;
+        position: relative;
+        top: 1vw;
     }
 
     .Social img{
@@ -244,6 +269,18 @@ footer{
         height: auto;
         max-width: 4vw;
         padding: 10px;
-        padding-top: 1vh;
     }
+
+    .disclaimer{
+        max-width: 40%;
+        text-align: left;
+        padding: 25px; 
+        position: relative;
+        top: 3vw;        
+    }
+
+    .disclaimer p{
+        font-size: 0.8rem;
+    }
+    
   }
