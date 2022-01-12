@@ -269,6 +269,31 @@ footer{
     font-size: 1rem;
 }
 
+.merchandise h1 {
+    color: white;
+    text-align: center;
+    margin-top: 30vh;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.merch_art {
+    width: 100vw;
+}
+
+.merch_art p{
+    color: white;
+    font-weight: 700;
+}
+
+.image_merch {
+    width: 200px;
+    height: 200px;
+    background-image: url(./images/slideshow/slideshow_1\ mobile.png);
+    background-position: center;
+    background-size: cover;
+}
+
 /*
     De ccs van tablet
 */
