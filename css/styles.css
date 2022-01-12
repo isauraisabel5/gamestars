@@ -100,9 +100,18 @@ li:nth-of-type(6){
 
 .mid{
     position: relative;
-    top: 20vw;
+    top: 12vw;
     color: white;
+}
 
+.table{
+    width: 75vw;
+    margin: auto;
+}
+
+.table th{
+    text-align: left;
+    padding: 5px;
 }
 
 .table td{
