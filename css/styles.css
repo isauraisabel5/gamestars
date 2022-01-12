@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
 body{
@@ -12,6 +11,10 @@ body{
 /*
     De ccs van pc
 */
+
+.ul_fout {
+    height:0;
+}
 
 #flyoutMenu {
     width: 100vw;
@@ -407,7 +410,7 @@ footer{
         align-items: left;
     }
 
-    
+
   }
 
   @media only screen and (min-width: 1024px) {
