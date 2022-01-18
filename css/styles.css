@@ -10,7 +10,7 @@ body{
 }
 
 /*
-    De ccs van pc
+    De ccs van mobile
 */
 
 #flyoutMenu {
@@ -159,6 +159,10 @@ li:nth-of-type(6){
 
 .sturen{
     text-align: center;
+}
+
+.sturen button:active{
+    background-color: #9B9B9B; 
 }
 
 .sturen button{
@@ -317,6 +321,9 @@ footer{
         display: block;
     }
 
+    .mid{
+        margin: 0 20vw;
+    }
     .table{
         width: 75vw;
         margin: auto;
@@ -339,7 +346,8 @@ footer{
         font-family: 'Montserrat', sans-serif;
         border-radius: 10px; 
         padding: 10px;
-        width: 50%;
+        width: 60vw;
+        height: 20vw;
     }
     
     .cijfer{
@@ -349,12 +357,13 @@ footer{
     
     .regels{
         padding-bottom: 20px;
+        max-width: 60vw;
     }
     
     #rond{
         border-radius: 10px;
         padding: 10px;
-        width: 80%;
+        width: 60vw;
     }
     
     #datum{
