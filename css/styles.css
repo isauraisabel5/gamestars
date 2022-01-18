@@ -32,6 +32,7 @@ body{
 
 #flyoutMenu li{
     padding: 10px;
+    list-style-type: none;
 }
 
 #flyoutMenu ul{
