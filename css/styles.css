@@ -9,7 +9,7 @@ body{
 }
 
 /*
-    De ccs van pc
+    De ccs van mobile
 */
 
 .ul_fout {
@@ -32,6 +32,7 @@ body{
 
 #flyoutMenu li{
     padding: 10px;
+    list-style-type: none;
 }
 
 #flyoutMenu ul{
@@ -100,6 +101,85 @@ li:nth-of-type(6){
 .menuBar{
     display: none;
 }
+
+.mid{
+    position: relative;
+    top: 12vw;
+    color: white;
+}
+
+.table{
+    width: 75vw;
+    margin: auto;
+}
+
+.table th{
+    text-align: left;
+    padding: 5px;
+}
+
+.table td{
+    padding-bottom: 10px;
+}
+
+.table input{
+    font-family:   'Montserrat', sans-serif;
+}
+
+.table textarea{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px; 
+    padding: 10px;
+    width: 72vw;
+    height: 90vw;
+}
+
+.cijfer{
+    padding: 10px;
+    float: left;
+}
+
+.regels{
+    padding-bottom: 20px;
+}
+
+#rond{
+    border-radius: 10px;
+    padding: 10px;
+    width: 70vw;
+}
+
+#datum{
+    border-radius: 10px;
+    padding: 10px;
+    width: 70vw;
+}
+
+#games{
+    border-radius: 10px;
+    padding: 10px;
+    width: 78vw;
+}
+
+.sturen{
+    text-align: center;
+}
+
+.sturen button:active{
+    background-color: #9B9B9B; 
+}
+
+.sturen button{
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+}   
+
+
 
 #Slideshow{
     max-width: 100vw;
@@ -344,6 +424,77 @@ footer{
         top: 22vh; 
         display: block;
     }
+
+    .mid{
+        margin: 0 20vw;
+    }
+    .table{
+        width: 75vw;
+        margin: auto;
+    }
+
+    .table th{
+        text-align: left;
+        padding: 5px;
+    }
+    
+    .table td{
+        padding-bottom: 10px;
+    }
+    
+    .table input{
+        font-family:   'Montserrat', sans-serif;
+    }
+    
+    .table textarea{
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 10px; 
+        padding: 10px;
+        width: 60vw;
+        height: 20vw;
+    }
+    
+    .cijfer{
+        padding: 10px;
+        float: left;
+    }
+    
+    .regels{
+        padding-bottom: 20px;
+        max-width: 60vw;
+    }
+    
+    #rond{
+        border-radius: 10px;
+        padding: 10px;
+        width: 60vw;
+    }
+    
+    #datum{
+        border-radius: 10px;
+        padding: 10px;
+        width: 18vw;
+    }
+    
+    #games{
+        border-radius: 10px;
+        padding: 10px;
+        width: 28vw;
+    }
+    
+    .sturen{
+        text-align: center;
+    }
+    
+    .sturen button{
+        color: black;
+        font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif;
+        background-color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 10px 20px;
+    }  
 
     .Contact{
         text-align: left;
