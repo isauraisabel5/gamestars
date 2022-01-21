@@ -17,6 +17,16 @@ function hideMenu(e) {
     document.body.style.overflow = "auto";
 }       
 
+let vesturen = document.getElementById("knop")
+
+function sendReviews(){
+  location.reload()
+}
+
+document.getElementById("knop").addEventListener('click', sendReviews);
+
+
+
 var slideIndex = 0;
 
 function showSlides() {
