@@ -1,0 +1,704 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-color: #001822;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*
+    De ccs van mobile
+*/
+
+.ul_fout {
+    height:0;
+}
+
+#flyoutMenu {
+    width: 100vw;
+    height: 100vh;
+    background-color: #001822;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate3d(100vw, 0, 0);
+    transition: transform .3s cubic-bezier(0, .52, 0, 1);
+    overflow: scroll;
+    z-index: 1000;
+    overflow: scroll;
+}
+
+#flyoutMenu li{
+    padding: 10px;
+    list-style-type: none;
+}
+
+#flyoutMenu ul{
+    text-align: center;
+    padding-top: 30vw;
+}
+
+#flyoutMenu a{
+    text-decoration: none;
+    font-size: 10vw;
+    color: white;
+}
+
+#flyoutMenu i{
+    color: #6ECDDD; 
+    font-size: 10vw ;
+    border: none;
+    padding: 30px;
+    position: absolute;
+    right: 0vw;
+}
+
+#flyoutMenu button{
+    border: none;
+    background-color: #001822;
+    float: right;
+}
+
+#flyoutMenu.show {
+    transform: translate3d(0vw, 0, 0);
+}
+
+li:nth-of-type(6){
+    border: solid 1px #6ECDDD; 
+    background-color: #6ECDDD;
+    border-radius: 100px;
+    margin: 15vw 15vw;
+    position: relative;
+    bottom: 10vw;
+}
+
+.Top_Bar{
+    width: 100%;
+    height: 5vw;
+
+}
+
+.Top_Bar img{
+    width: 100%;
+    height: auto;
+    max-width: 30vw;
+    padding: 20px;
+    
+}
+
+.Top_Bar button{
+    color: #6ECDDD;
+    font-size: 10vw;
+    float: right;
+    text-decoration: none;
+    background-color: #001822;
+    border: none;
+    padding: 30px;
+}
+
+.menuBar{
+    display: none;
+}
+
+.mid{
+    width: 80vw;
+    margin: auto;
+    color: white;
+}
+
+h1{
+    padding: 20px 0px;
+}
+
+th, td{
+    color: white;
+    border: 3px solid white;
+    width: 50%;
+    font-size: 0.7rem;
+    padding: 10px 5px;
+}
+
+td:nth-child(even){
+    text-align: center;
+}
+
+table{
+    padding-top: 20vw;
+    border-collapse: collapse;
+}
+
+.rating{
+    padding-top: 40vw;   
+    margin-right: auto;
+    margin-left: auto;
+}
+.rating_2{
+    padding-top: 30vw;
+}
+
+.table{
+    width: 75vw;
+    margin: auto;
+}
+
+.table th{
+    text-align: left;
+    padding: 5px;
+}
+
+.table td{
+    padding-bottom: 10px;
+}
+
+.table input{
+    font-family:   'Montserrat', sans-serif;
+}
+
+.table textarea{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px; 
+    padding: 10px;
+    width: 72vw;
+    height: 90vw;
+}
+
+.cijfer{
+    padding: 10px;
+    float: left;
+}
+
+.regels{
+    padding-bottom: 20px;
+}
+
+#rond{
+    border-radius: 10px;
+    padding: 10px;
+    width: 70vw;
+}
+
+#datum{
+    border-radius: 10px;
+    padding: 10px;
+    width: 70vw;
+}
+
+#games{
+    border-radius: 10px;
+    padding: 10px;
+    width: 78vw;
+}
+
+.sturen{
+    text-align: center;
+}
+
+.sturen button:active{
+    background-color: #9B9B9B; 
+}
+
+.sturen button{
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+}   
+
+
+
+#Slideshow{
+    max-width: 100vw;
+    position: relative;
+    margin: auto; 
+    top: 10vh; 
+}
+
+.Slides{
+    display: none;
+
+}
+
+.Slides img{
+    vertical-align: middle;
+    width: 100%;
+    height: 61vh;
+    object-fit: cover;
+}
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .dots{
+      text-align: center;
+      padding-top: 4vw;
+  }
+
+.active, .dot:hover {
+    background-color: #717171;
+  }
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+footer{
+    background-color: white;
+    position: relative;
+    top: 40vw;
+    padding-bottom: 5vw ;
+}
+
+.Contact{
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+.Social{
+    justify-content: center;
+    display: flex;
+}
+
+.Social img{
+    width: 100%;
+    height: auto;
+    max-width: 10vw;
+    padding: 10px;
+    padding-top: 4vh;
+}
+
+.disclaimer{
+    padding-top: 2vh;
+    text-align: center;
+}
+
+.disclaimer p{
+    font-size: 1rem;
+}
+
+.merchandise h1 {
+    color: white;
+    text-align: center;
+    margin-top: 15vh;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.merch_art {
+    width: 50vw;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.merch_art p{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px;
+}
+
+.image_merch {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 40px;
+}
+
+.img1 {
+    background-image: url(../images/merch-fotos/shopping.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url(../images/merch-fotos/shopping2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url(../images/merch-fotos/shopping3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url(../images/merch-fotos/shopping4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img5 {
+    background-image: url(../images/merch-fotos/shopping5.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img6 {
+    background-image: url(../images/merch-fotos/shopping6.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img7 {
+    background-image: url(../images/merch-fotos/shopping7.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img8 {
+    background-image: url(../images/merch-fotos/shopping8.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.bestellen {
+    text-align:center; 
+}
+
+#antaal {
+    background-color: #6ECDDD;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.btn {
+    background-color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #6ECDDD;
+}
+
+/*
+    De ccs van tablet
+*/
+@media only screen and (min-width: 768px) {   
+
+    #flyoutMenu{
+        display: none;
+    }
+    
+    .Top_Bar button{
+        display: none;
+        position: relative;
+        right: 8vw;  
+    }
+
+    .Top_Bar img{
+        width: 100%;
+        height: auto;
+        max-width: 10vw;
+        padding: 25px;  
+        display: block;
+    }
+
+    .menuBar{
+        display: block;
+        position: relative;
+    }
+
+    .menuBar a{
+        text-decoration: none;
+        font-size: 1rem;
+        color: white;     
+    }
+
+    .menuBar li{
+        display: inline-table;
+        position: relative; 
+        padding-left: 1vw;
+        padding-right: 1vw;
+        position: relative;
+        bottom: 23vw;
+        left: 20vw;
+    }
+
+    #Slideshow{
+        max-width: 100vw;
+        position: relative;
+        margin: auto; 
+        top: 22vh; 
+        display: block;
+    }
+
+    .mid{
+        margin: 0 20vw;
+    }
+    .table{
+        width: 75vw;
+        margin: auto;
+    }
+
+    .table th{
+        text-align: left;
+        padding: 5px;
+    }
+    
+    .table td{
+        padding-bottom: 10px;
+    }
+    
+    .table input{
+        font-family:   'Montserrat', sans-serif;
+    }
+    
+    .table textarea{
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 10px; 
+        padding: 10px;
+        width: 60vw;
+        height: 20vw;
+    }
+    
+    .cijfer{
+        padding: 10px;
+        float: left;
+    }
+    
+    .regels{
+        padding-bottom: 20px;
+        max-width: 60vw;
+    }
+    
+    #rond{
+        border-radius: 10px;
+        padding: 10px;
+        width: 60vw;
+    }
+    
+    #datum{
+        border-radius: 10px;
+        padding: 10px;
+        width: 18vw;
+    }
+    
+    #games{
+        border-radius: 10px;
+        padding: 10px;
+        width: 28vw;
+    }
+    
+    .sturen{
+        text-align: center;
+    }
+    
+    .sturen button{
+        color: black;
+        font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif;
+        background-color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 10px 20px;
+    }  
+
+    .Contact{
+        text-align: left;
+        float: right;
+        padding: 25px;
+        position: relative;
+        top: 1vw;
+    }
+
+    .contact_word{
+        float: left;
+    }
+
+    .Contact h2{
+        font-size: 1.2rem;
+    }
+
+    .Contact h3{
+        font-size: 1rem;
+    }
+
+    .contact-btn {
+        padding:8px;
+    }
+
+    footer{
+        padding-bottom: 5vw;
+        position: relative;
+        top: 10vw;
+    }
+
+    .Social{
+        padding: 25px;
+        float: right;
+        position: relative;
+        top: 1vw;
+    }
+
+    .Social img{
+        width: 100%;
+        height: auto;
+        max-width: 4vw;
+        padding: 10px;
+    }
+
+    .disclaimer{
+        max-width: 40%;
+        text-align: left;
+        padding: 25px; 
+        position: relative;
+        top: 3vw;        
+    }
+
+    .disclaimer p{
+        font-size: 0.8rem;
+    }
+
+    .merchandise h1 {
+        margin-top: 15vh;
+    }
+
+    .merch_merch {
+        display: flex;
+        align-items: left;
+    }
+
+
+  }
+
+  @media only screen and (min-width: 1024px) {
+  
+    #flyoutMenu{
+        display: none;
+    }
+    
+    .Top_Bar button{
+        display: none;
+        position: relative;
+        right: 8vw;  
+    }
+
+    .Top_Bar img{
+        width: 100%;
+        height: auto;
+        max-width: 10vw;
+        padding: 25px;  
+        display: block;
+    }
+
+    .menuBar{
+        display: block;
+        position: relative;
+    }
+
+    .menuBar a{
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: white;     
+    }
+
+    .menuBar li{
+        display: inline-table;
+        position: relative; 
+        padding-left: 1vw;
+        padding-right: 1vw;
+        position: relative;
+        bottom: 23vw;
+        left: 20vw;
+    }
+
+    #Slideshow{
+        max-width: 100vw;
+        position: relative;
+        margin: auto; 
+        top: 22vh; 
+        display: block;
+    }
+
+    .Contact{
+        text-align: left;
+        float: right;
+        padding: 25px;
+        position: relative;
+    }
+
+    .contact_word{
+        position: relative;
+        right: 10vw;
+        top: 1.5vw;
+    }
+
+    .contact_items{
+        position: relative;
+        bottom: 1vw;
+    }
+
+    .Contact h2{
+        font-size: 1rem;
+        float: left;
+    }
+
+    .Contact h3{
+        font-size: 0.8rem;
+    }
+
+    footer{
+        padding-bottom: 5vw;
+        position: relative;
+        top: 13vw;
+    }
+
+    .Social{
+        padding: 25px;
+        float: right;
+        position: relative;
+        top: 1vw;
+    }
+
+    .Social img{
+        width: 100%;
+        height: auto;
+        max-width: 3vw;
+        padding: 10px;
+    }
+
+    .disclaimer{
+        max-width: 40%;
+        text-align: left;
+        padding: 25px; 
+        position: relative;
+        top: 3vw;        
+    }
+
+    .disclaimer p{
+        font-size: 0.6rem;
+    }
+  }
