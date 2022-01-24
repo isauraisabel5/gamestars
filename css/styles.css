@@ -5,6 +5,7 @@
 body{
     background-color: #001822;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 
 }
 
@@ -521,12 +522,12 @@ footer{
     .disclaimer p{
         font-size: 0.6rem;
     }
-<<<<<<< HEAD
   }
 
   .drop{ color: #6ECDDD;
     font-size: 40px;
     font-weight: bold;
+    overflow-y: hidden;
   }
 
   .bericht{
@@ -537,8 +538,9 @@ footer{
   #contacttext{
       overflow: hidden;
       position: relative;
-      left: 8vw;
-      top: 10vw;
+      bottom: 28vw;
+      left: 10vw;
+      
       
   }
   #formulier{
@@ -655,63 +657,57 @@ li:nth-of-type(6){
     display: none;
 }
 
-.mid{
+.middle{
     position: relative;
     top: 12vw;
+    left: 40vw;
     color: white;
+    overflow-y: hidden;
+    
 }
 
-.table{
+.table2{
     width: 75vw;
     margin: auto;
 }
 
-.table th{
+.table2 th{
     text-align: left;
     padding: 5px;
 }
 
-.table td{
+.table2 td{
     padding-bottom: 10px;
 }
 
-.table input{
+.table2 input{
     font-family:   'Montserrat', sans-serif;
 }
 
-.table textarea{
+.table2 textarea{
     font-family: 'Montserrat', sans-serif;
     border-radius: 10px; 
     padding: 10px;
-    width: 72vw;
-    height: 90vw;
+    width: 30vw;
+    height: 10vw;
 }
 
-.cijfer{
-    padding: 10px;
-    float: left;
-}
 
-.regels{
-    padding-bottom: 20px;
-}
 
-#rond{
+
+
+#round{
     border-radius: 10px;
     padding: 10px;
-    width: 70vw;
+    width: 30vw;
 }
 
-#datum{
-    border-radius: 10px;
-    padding: 10px;
-    width: 70vw;
-}
 
-#games{
+
+#onderwerp{
     border-radius: 10px;
     padding: 10px;
-    width: 78vw;
+    width: 30vw;
 }
 
 .sturen{
@@ -1157,6 +1153,3 @@ footer{
     }
   }
  
-=======
-  }
->>>>>>> parent of 912335c (.)
