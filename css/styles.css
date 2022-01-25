@@ -659,7 +659,7 @@ li:nth-of-type(6){
 
 .middle{
     position: relative;
-    top: 12vw;
+    top: 8vw;
     left: 40vw;
     color: white;
     overflow-y: hidden;
@@ -689,7 +689,7 @@ li:nth-of-type(6){
     border-radius: 10px; 
     padding: 10px;
     width: 30vw;
-    height: 10vw;
+    height: 6vw;
 }
 
 
