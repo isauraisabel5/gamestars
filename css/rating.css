@@ -477,7 +477,7 @@ footer{
         padding-right: 1vw;
         position: relative;
         bottom: 23vw;
-        left: 20vw;
+        left: 15vw;
     }
 
     #Slideshow{
@@ -493,6 +493,15 @@ footer{
         margin: auto;
         color: white;
     }
+
+    .rating{
+        padding-top: 20vw;   
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .rating_2{
+        padding-top: 15vw;
+    }
     
     h1{
         padding: 20px 0px;
@@ -501,7 +510,7 @@ footer{
     th, td{
         color: white;
         border: 3px solid white;
-        width: 50%;
+        width: 10%;
         font-size: 0.7rem;
         padding: 10px 5px;
     }
@@ -532,6 +541,10 @@ footer{
     
     td:nth-child(6){
         display: table-cell;
+    }
+
+    th:nth-child(1){
+        text-align: left;
     }
     
     th:nth-child(1){
