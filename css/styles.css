@@ -16,6 +16,13 @@ body{
     height:0;
 }
 
+.mid h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
 #flyoutMenu {
     width: 100vw;
     height: 100vh;
@@ -400,6 +407,12 @@ main {
 */
 @media only screen and (min-width: 768px) {   
 
+    .mid h1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
     #flyoutMenu{
         display: none;
     }
@@ -601,6 +614,12 @@ main {
   }
 
   @media only screen and (min-width: 1024px) {
+
+    .mid h1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
   
     #flyoutMenu{
         display: none;
