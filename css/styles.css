@@ -218,6 +218,10 @@ li:nth-of-type(6){
     text-align: left;
 }
 
+.dit td{
+    padding-bottom: 10px;
+}
+
 
 #Slideshow{
     max-width: 100vw;
@@ -542,19 +546,54 @@ main {
         width: 28vw;
     }
     
-    .sturen{
-        text-align: center;
-    }
-    
     .sturen button{
-        color: black;
+        color: white;
         font-size: 1.2rem;
         font-family: 'Montserrat', sans-serif;
-        background-color: white;
+        background-color: #6ECDDD;
         border: none;
         border-radius: 50px;
         padding: 10px 20px;
-    }  
+    }   
+    
+    .contacttext{
+        padding-top: 20vw;
+        color: white;
+        width: 75vw;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .contacttext h1{
+        color: #6ECDDD;
+        font-size: 1.4rem;
+    }
+    
+    .contacttext input{
+        width: 70vw;
+    }
+    
+    .contacttext textarea{
+        width: 70vw;
+        height: 40vw;
+    }
+    
+    #round{
+        border-radius: 10px;
+        padding: 10px;
+    
+    }
+    
+    .text{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    .dit{
+        padding-top: 10vw;
+        text-align: left;
+    }
 
     .Contact{
         text-align: left;
@@ -563,6 +602,7 @@ main {
         position: relative;
         top: 1vw;
     }
+
 
     .contact_word{
         float: left;
@@ -712,6 +752,31 @@ main {
 
     .Contact h3{
         font-size: 0.8rem;
+    }
+
+    .contacttext h1{
+        color: #6ECDDD;
+        font-size: 1.6rem;
+    }
+    
+    .contacttext input{
+        width: 70vw;
+    }
+    
+    .contacttext textarea{
+        width: 70vw;
+        height: 40vw;
+    }
+    
+    #round{
+        border-radius: 10px;
+        padding: 10px;
+    
+    }
+    
+    .text{
+        font-size: 1rem;
+        text-align: center;
     }
 
     footer{
