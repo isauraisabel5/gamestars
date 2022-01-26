@@ -293,6 +293,36 @@ footer{
     background-color: #6ECDDD;
 }
 
+.about{
+    text-decoration: none;
+    color: white; 
+    margin-top: 6vh;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.video{
+    
+    margin: 0 20vw;
+    height: 50vh;
+    width: 50vw;
+}
+
+.about{
+    text-decoration: none;
+    color: white; 
+    margin-top: 6vh;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.video{
+    
+    margin: 0 20vw;
+    height: 50vh;
+    width: 50vw;
+}
+
 /*
     De ccs van tablet
 */
@@ -409,6 +439,20 @@ footer{
         display: flex;
         align-items: left;
     }
+    .about{
+        text-decoration: none;
+        color: white; 
+        margin-top: 6vh;
+        text-align: center;
+        padding: 20px;
+        text-transform: uppercase;
+    }
+    .video{
+        
+        margin: 0 20vw;
+        height: 50vh;
+        width: 50vw;
+    }
 
 
   }
@@ -520,4 +564,22 @@ footer{
     .disclaimer p{
         font-size: 0.6rem;
     }
-  }
+
+    .about{
+        text-decoration: none;
+        color: white; 
+        margin-top: 6vh;
+        text-align: center;
+        padding: 20px;
+        text-transform: uppercase;
+    }
+    .video{
+        
+        margin: 0 20vw;
+        height: 50vh;
+        width: 50vw;
+        margin-top: 6vh;
+        padding: 20px;
+    }
+
+}
