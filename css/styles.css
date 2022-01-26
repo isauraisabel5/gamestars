@@ -293,19 +293,8 @@ footer{
     background-color: #6ECDDD;
 }
 
-.about{
-    text-decoration: none;
-    color: white; 
-    margin-top: 6vh;
-    text-align: center;
-    padding: 20px;
-    text-transform: uppercase;
-}
-.video{
-    
-    margin: 0 20vw;
-    height: 50vh;
-    width: 50vw;
+main {
+    margin: auto;
 }
 
 .about{
@@ -316,9 +305,12 @@ footer{
     padding: 20px;
     text-transform: uppercase;
 }
+
+.about h1 {
+    margin-top: 50px;
+}
 .video{
-    
-    margin: 0 20vw;
+    margin: 0 25vw;
     height: 50vh;
     width: 50vw;
 }
@@ -449,7 +441,7 @@ footer{
     }
     .video{
         
-        margin: 0 20vw;
+        margin: 0 25vw;
         height: 50vh;
         width: 50vw;
     }
@@ -573,9 +565,11 @@ footer{
         padding: 20px;
         text-transform: uppercase;
     }
+
+
     .video{
         
-        margin: 0 20vw;
+        margin: 0 22.5vw;
         height: 50vh;
         width: 50vw;
         margin-top: 6vh;
