@@ -625,6 +625,10 @@ main {
     #flyoutMenu{
         display: none;
     }
+
+    .Top_Bar {
+        margin-left: 35px;
+    }
     
     .Top_Bar button{
         display: none;
