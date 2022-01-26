@@ -163,6 +163,7 @@ li:nth-of-type(6){
 
 .sturen{
     text-align: center;
+    padding-top: 10vw;
 }
 
 .sturen button:active{
@@ -170,15 +171,52 @@ li:nth-of-type(6){
 }
 
 .sturen button{
-    color: black;
+    color: white;
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
-    background-color: white;
+    background-color: #6ECDDD;
     border: none;
     border-radius: 50px;
     padding: 10px 20px;
 }   
 
+.contacttext{
+    padding-top: 35vw;
+    color: white;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacttext h1{
+    color: #6ECDDD;
+    font-size: 1.2rem;
+}
+
+.contacttext input{
+    width: 70vw;
+}
+
+.contacttext textarea{
+    width: 70vw;
+    height: 40vw;
+}
+
+#round{
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.text{
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.dit{
+    padding-top: 10vw;
+    text-align: left;
+}
 
 
 #Slideshow{
