@@ -17,11 +17,11 @@ function hideMenu(e) {
     document.body.style.overflow = "auto";
 }       
 
-let vesturen = document.getElementById("knop")
+let vesturen = document.getElementById("knop-review")
 
 function sendReviews(){
   location.reload()
 }
 
-document.getElementById("knop").addEventListener('click', sendReviews);
+document.getElementById("knop-review").addEventListener('click', sendReviews);
 
